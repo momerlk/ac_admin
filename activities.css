@@ -172,25 +172,6 @@ h2.subtitle {
     }
 }
 
-/* For Activities and Co Curricular Positions Page */
-
-.activity-table {
-    width: 90%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
-}
-
-.activity-table th, .activity-table td {
-    padding: 15px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-.activity-table th {
-    background-color: #003366;
-    color: #fff;
-}
 
 /* For Co Curricular Applications Page */
 
@@ -221,26 +202,36 @@ h2.subtitle {
     padding: 20px;
 }
 
-form {
-    width: 60%;
-    margin: 20px auto;
+
+/* ________________________________________________________________________________ */
+/* ________________________________________________________________________________ */
+/* ________________________________________________________________________________ */
+/* ________________________________________________________________________________ */
+/* ________________________________________________________________________________ */
+
+
+
+.profile-section {
+    padding : 50px;
+    background: none;
+    border-radius: 14px;
+    flex : 1;
+    border-color: gray;
 }
 
-label {
-    display: block;
-    margin: 10px 0;
+
+.profile-view {
+    padding : 50px;
+    background: none;
+    border-radius: 14px;
+    flex : 1;
+    border-color: gray;
 }
 
+.search {
+    background-color: rgb(211, 211, 211);
+    margin : 50px;
+    padding : 20px;
 
-
-.blue-button {
-    background-color: #003366;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.blue-button:hover {
-    background-color: #001a33;
+    border-radius: 8px;
 }

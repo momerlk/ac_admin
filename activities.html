@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="activities.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Activities</title>
 </head>
@@ -14,11 +15,11 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
             <a href="index.html">Attendance</a>
-            <a href="news_and_events.html">Co Curricular Updates</a>
-            <a href="activities.html">Activities</a>
+            <a href="news_and_events.html">Updates</a>
+            <a href="activities.html">Student Profiles</a>
             <a href="blazer.html">Blazer Points</a>
-            <a href="co_curricular_positions.html">Co Curricular Positions</a>
-            <a href="co_curricular_applications.html">Co Curricular Applications</a>
+            <a href="approvals.html">Pending Approvals</a>
+            <a href="applications.html">Applications</a>
         </div>
     </div>
 
@@ -26,40 +27,58 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 
     <header>
-        <h1>Activities</h1>
+        <h1>Student Profiles</h1>
         <h2 class="subtitle">C1-H2</h2>
     </header>
 
-    <table class="activity-table">
-        <tr>
-            <th>Sr.No</th>
-            <th>Names</th>
-            <th>Role</th>
-            <th>Society</th>
-            <th>Data</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>John Doe</td>
-            <td>President</td>
-            <td>Society A</td>
-            <td>Data A</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Jane Smith</td>
-            <td>Vice President</td>
-            <td>Society B</td>
-            <td>Data B</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Lorem Ipsum</td>
-            <td>Treasurer</td>
-            <td>Society C</td>
-            <td>Data C</td>
-        </tr>
-    </table>
+    <input class="search">
+    </input>
+
+    <a class="profile-view" href="activities_profile.html">
+
+        <div style="display : flex;flex : 1;flex-direction: row;justify-content: space-between;">
+            <div style="display : flex;flex : 1;flex-direction: row;">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQHFh7tLUcpiUQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713445243874?e=1730937600&v=beta&t=tED1DV0_zd-v7xZYG1XJDEWsxCBo0TdSbJyZvv6-SYk" style="width : 50px;height : 50px;border-radius:  100px;"/>
+                <h5 style="margin-left : 20px">Omer Malik</h5>
+            </div>
+            <h5>H1-C</h5>
+        </div>
+    </a>
+
+    <a class="profile-view" href="activities_profile.html">
+
+        <div style="display : flex;flex : 1;flex-direction: row;justify-content: space-between;">
+            <div style="display : flex;flex : 1;flex-direction: row;">
+                <img src="https://media.licdn.com/dms/image/v2/C5603AQFETwzBlkOQ7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652931981087?e=1730937600&v=beta&t=IyfykqRTr8f0eMssCzneuvXPCTrJoPPVSa-ppzQ0W5I" style="width : 50px;height : 50px;border-radius:  100px;"/>
+                <h5 style="margin-left : 20px">Amr Nazir</h5>
+            </div>
+            <h5>H1-D</h5>
+        </div>
+    </a>
+
+    <a class="profile-view" href="activities_profile.html">
+
+        <div style="display : flex;flex : 1;flex-direction: row;justify-content: space-between;">
+            <div style="display : flex;flex : 1;flex-direction: row;">
+                <img src="https://ayaanwaqar.com/wp-content/uploads/2024/01/img_8377.jpg" style="width : 50px;height : 50px;border-radius:  100px;"/>
+                <h5 style="margin-left : 20px">Ayaan Waqar</h5>
+            </div>
+            <h5>H2</h5>
+        </div>
+    </a>
+
+    <a class="profile-view" href="activities_profile.html">
+
+        <div style="display : flex;flex : 1;flex-direction: row;justify-content: space-between;">
+            <div style="display : flex;flex : 1;flex-direction: row;">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQEh1wTUpcKnlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709140671514?e=1730937600&v=beta&t=BGlFispq_cxg25o8bQ5Mye4_A9ZM-BS8sOrRrSxHdPE" style="width : 50px;height : 50px;border-radius:  100px;"/>
+                <h5 style="margin-left : 20px">Rafay Ataullah</h5>
+            </div>
+            <h5>H2</h5>
+        </div>
+    </a>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
