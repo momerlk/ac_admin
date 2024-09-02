@@ -227,11 +227,3 @@ h2.subtitle {
     flex : 1;
     border-color: gray;
 }
-
-.search {
-    background-color: rgb(211, 211, 211);
-    margin : 50px;
-    padding : 20px;
-
-    border-radius: 8px;
-}
